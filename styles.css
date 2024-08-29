@@ -22,20 +22,19 @@
   flex-direction: row;
 }
 .left {
-  flex: 1; /* Takes up equal space with the right column */
+  flex: 1;
   display: flex;
-  flex-direction: column; /* Stacks sub-divs vertically */
+  flex-direction: column;
 }
 .right {
-  flex: 1; /* Takes up equal space with the left column */
-  border: 1px solid #ddd; /* Optional: Add borders for visual separation */
-  padding: 10px; /* Optional: Add padding for spacing */
+  flex: 1;
+  border: 1px solid #ddd;
+  padding: 10px;
   display: flex;
 }
 .sub {
-  flex: 1; /* Equal height for both sub-divs inside the left column */
-  border: 1px solid #ddd; /* Optional: Add borders for visual separation */
-  /* Optional: Add padding for spacing */
+  flex: 1;
+  border: 1px solid #ddd;
   display: flex;
 }
 
@@ -43,8 +42,6 @@
   background-color: #ddd7d7;
   border-radius: 10px;
   padding: 10px;
-
-  /* Adjust the border radius as needed */
 }
 
 .grid-container {
@@ -53,7 +50,6 @@
   grid-gap: 20px;
   justify-content: center;
   align-items: center;
-  /* Center items vertically */
 }
 
 .grid-item {
@@ -63,22 +59,18 @@
   padding: 20px;
   display: flex;
   flex-direction: column;
-  justify-content: center; /* Center content vertically within grid item */
-  align-items: center; /* Center content horizontally within grid item */
+  justify-content: center;
+  align-items: center;
 }
 
-@media (max-width: 768px) {
+.small {
+  font-size: 16px;
 }
 
-@media (max-width: 768px) {
-  .main-container {
-    flex-direction: column; /* Stack columns vertically on small screens */
-  }
-}
 @media (max-width: 768px) {
   .p-container {
     flex-direction: column;
-    flex-wrap: nowrap; /* Stack columns vertically on small screens */
+    flex-wrap: nowrap;
   }
   .left {
     width: 100%;
@@ -89,8 +81,7 @@
   .grid-container {
     grid-template-columns: repeat(2, 1fr);
   }
-}
-
-.small {
-  font-size: 16px;
+  .main-container {
+    flex-direction: column;
+  }
 }
