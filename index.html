@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar bg-primary navbar-expand-lg">
+      <div class="container-md">
+        <img src="images/Group 2.png" class="w-25" alt="" />
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse justify-content-end navbar-collapse"
+          id="navbarNavDropdown"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active text-white" aria-current="page" href="#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white-50" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white-50" href="#">Contact Us</a>
+            </li>
+          </ul>
+          <div class="text-center d-flex align-items-center">
+            <i class="text-white fa-solid fa-cart-shopping"></i>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- banner section  -->
+    <section>
+      <div
+        id="carouselExampleInterval"
+        class="carousel slide bg-custom pt-3"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <div
+              class="d-flex flex-column flex-md-row justify-content-center align-items-center gap-5"
+            >
+              <div class="mt-5 m-md-0">
+                <p class="m-0 text-md-start p-0 text-center">Pro Beyond</p>
+                <h1 class="my-2 text-md-start p-0 text-center">
+                  Iphone 14 pro
+                </h1>
+                <p class="m-0 text-md-start p-0 text-center">
+                  Created to change everything for the better. For everyone
+                </p>
+                <button
+                  type="button"
+                  class="btn d-block mt-2 d-md-inline m-auto btn-primary"
+                >
+                  shop now
+                </button>
+              </div>
+              <div>
+                <img
+                  src="images/Iphone Image.png"
+                  class="d-block"
+                  style="height: 500px; overflow: hidden; margin-bottom: -100px"
+                  alt="..."
+                />
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <div
+              class="d-flex flex-column flex-md-row justify-content-center align-items-center gap-5"
+            >
+              <div class="mt-5 m-md-0">
+                <p class="m-0 text-md-start p-0 text-center">
+                  Embrace yourself
+                </p>
+                <h1 class="my-2 text-md-start p-0 text-center">
+                  Samsung Galaxy S10
+                </h1>
+                <p class="m-0 text-md-start p-0 text-center">
+                  Created to change everything for the better. For everyone
+                </p>
+                <button
+                  type="button"
+                  class="btn mt-2 d-block d-md-inline m-auto btn-primary"
+                >
+                  shop now
+                </button>
+              </div>
+              <div>
+                <img
+                  src="images/samsung-galaxy-note10.png"
+                  class="d-block"
+                  style="height: 500px; overflow: hidden; margin-bottom: -100px"
+                  alt="..."
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleInterval"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleInterval"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- other product section  -->
+    <section>
+      <div class="p-container">
+        <div class="left">
+          <div class="sub overflow-hidden">
+            <img
+              src="images/ipad.png"
+              class="w-50 pt-3"
+              style="margin-bottom: -40px"
+              alt=""
+            />
+            <div
+              class="d-flex flex-column align-items-center justify-content-center p-4"
+            >
+              <div>
+                <h5>IPad 9</h5>
+                <p class="m-0 p-0" style="font-size: 13px">
+                  The iPad 9 features the A13 Bionic chip, delivering a 20%
+                  performance boost over the previous generation. It’s up to 3x
+                  faster.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="sub bg-secondary-subtle">
+            <div class="overflow-hidden">
+              <img
+                src="images/Iphone 14 pro 1.png"
+                style="transform: scale(1.9)"
+                class="w-50 m-0 p-0"
+                alt=""
+              />
+            </div>
+
+            <div
+              class="d-flex flex-column align-items-center justify-content-center p-4"
+            >
+              <div>
+                <h5>Apple Airpod Max</h5>
+                <p class="m-0 p-0" style="font-size: 13px">
+                  Immerse yourself in rich audio with custom-designed drivers
+                  and computational audio features.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="right bg-body-tertiary overflow-hidden">
+          <div
+            class="d-flex flex-column align-items-center justify-content-center p-5"
+          >
+            <div>
+              <h5>Macbook Air</h5>
+              <p class="m-0 p-0" style="font-size: 13px">
+                With a sleek aluminum body, Liquid Retina display, and support
+                for up to two external displays, the MacBook Air combines
+                performance and portability in four gorgeous colors: midnight,
+                starlight, space gray, and silver1.
+              </p>
+            </div>
+          </div>
+          <img
+            src="images/Group 6.png"
+            class="w-50 h-100 py-5"
+            style="margin-right: -140px"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- category icon section  -->
+    <section class="container-lg">
+      <div class="d-flex justify-content-between pt-5 pb-3">
+        <h6>Browse By Category</h6>
+        <div>
+          <i class="fa-solid fa-chevron-left"></i
+          ><i class="fa-solid fa-chevron-right"></i>
+        </div>
+      </div>
+      <div class="grid-container">
+        <div class="grid-item">
+          <img src="images/phone.svg" alt="Phone" />
+          <p>Phones</p>
+        </div>
+        <div class="grid-item">
+          <img src="images/smartwatch.svg" alt="Smartwatch" />
+          <p>Smartwatch</p>
+        </div>
+        <div class="grid-item">
+          <img src="images/camera.svg" alt="Camera" />
+          <p>Camera</p>
+        </div>
+        <div class="grid-item">
+          <img src="images/headphone.svg" alt="Headphones" />
+          <p>Headphones</p>
+        </div>
+        <div class="grid-item">
+          <img src="images/pc.svg" alt="Computers" />
+          <p>Computers</p>
+        </div>
+        <div class="grid-item">
+          <img src="images/gaming.svg" alt="Gaming" />
+          <p>Gaming</p>
+        </div>
+      </div>
+      <div></div>
+    </section class>
+
+    <!-- filter section -->
+   <section class="container py-4">
+    <div class="d-flex gap-5">
+      <p class="text-dark h6" style="border-bottom: 1px solid black;">New Arrival</p>
+      <p class="text-secondary">Best Seller</p>
+      <p  class="text-secondary">Featured Product</p>
+    </div>
+    <div class="container py-2">
+      <div class="row">
+        <div class="col-md-3 col-6">
+          <div class="card">
+            <div class="card-body text-center">
+              <i class="fa-regular fa-heart float-end"></i>
+              <img src="images/Iphone 14 pro 1.png" alt="Product 1" class="card-img-top d-block">
+              <h5 class="card-title small">Apple iPhone 14 Pro Max 128GB Deep Purple (MQ9T3RX/A)</h5>
+              <p class="card-text">$29.99</p>
+              <button class="btn btn-dark">Buy Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-6">
+          <div class="card">
+            <div class="card-body text-center">
+              <i class="fa-solid fa-heart float-end text-danger"></i>
+              <img src="images/Iphone 14 pro 1-1.png" alt="Product 2" class="card-img-top d-block">
+              <h5 class="card-title small">Blackmagic Pocket Cinema Camera 6k</h5>
+              <p class="card-text">$39.99</p>
+              <button class="btn btn-dark">Buy Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-6">
+          <div class="card">
+            <div class="card-body text-center">
+              <i class="fa-regular fa-heart float-end"></i>
+              <img src="images/Iphone 14 pro 1-2.png" alt="Product 3" class="card-img-top d-block">
+              <h5 class="card-title small">Apple Watch Series 9 GPS 41mm Starlight Aluminium Case</h5>
+              <p class="card-text">$49.99</p>
+              <button class="btn btn-dark">Buy Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-6">
+          <div class="card">
+            <div class="card-body text-center">
+              <i class="fa-regular fa-heart float-end"></i>
+              <img src="images/Iphone 14 pro 1-3.png" alt="Product 4" class="card-img-top d-block">
+              <h5 class="card-title small">AirPods Max Silver
+              </h5>
+              <p class="card-text">$59.99</p>
+              <button class="btn btn-dark">Buy Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   </section>
+
+   <!-- advertise section -->
+    <section style="background-color: #958AD4; overflow: hidden;">
+        <div class="row py-0 py-md-5">
+          <div class="col-md-3 col-sm-12 ">
+            <img style="height: 240px;" src="images/image 19.png" alt="Image 1">
+          </div>
+          <div class="col-md-6 col-sm-12 py-5 py-md-0 d-flex justify-content-center align-items-center ">
+            <div class="w-50 text-center">
+              <h1 class="text-white h1" style="font-weight: bold;"><span style="color:rgb(37,23,123);">11.11</span> SALE</h1>
+              <p  class="text-white small">Gear up for the biggest shopping event of the year! Our 11.11 sale is here with unbeatable deals and discounts on a wide range of products. </p>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-12">
+            <img style="height: 240px;" class="d-block" src="images/Group 6.png" alt="Image 4">
+          </div>
+      </div>
+    </section>
+
+    <!-- footer section -->
+    <footer class="footer py-3" style="background-color:rgb(37,23,123);color: white;">
+      <div class="container">
+        <div class="row text-center text-md-start">
+          <div class="col-md-3 col-sm-6 py-3 py-md-0">
+            <img src="images/Group 2.png" class="w-100" alt="" />
+          </div>
+          <div class="col-md-3 col-sm-6 d-none d-md-block">
+            <ul class="list-unstyled social-icons d-flex gap-3">
+              <li><a href="#"><i class="fa-brands fa-facebook text-white"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-twitter text-white"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-instagram text-white"></i></a></li>
+            </ul> 
+          </div>
+          <div class="col-md-3 col-sm-6  text-white-50 small">
+            <ul class="list-unstyled">
+              <li class="text-white h6 text-decoration-underline">Services</li>
+              <li>Bonus Program</li>
+              <li>Gift Cards</li>
+              <li>Credit and Payment</li>
+              <li>Service Contracts</li>
+              <li>Non-Cash Account</li>
+              <li>Payment</li>
+            </ul>
+          </div>
+          <div class="col-md-3 col-sm-6 text-white-50 small">
+            <ul class="list-unstyled">
+              <li class="text-white h6 text-decoration-underline">Assistance to the Buyer</li>
+              <li>Find an Order</li>
+              <li>Terms of Delivery</li>
+              <li>Exchange and Return of Goods</li>
+              <li>Guarantee</li>
+              <li>Frequently Asked Questions</li>
+              <li>Terms of Use of the Site</li>
+            </ul>
+          </div>
+          <div class="col-md-3 col-sm-6 d-block d-md-none">
+            <ul class="list-unstyled social-icons d-flex justify-content-center align-items-center gap-3">
+              <li><a href="#"><i class="fa-brands fa-facebook text-white"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-twitter text-white"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-instagram text-white"></i></a></li>
+            </ul> 
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

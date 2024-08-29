@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap");
+* {
+  font-family: "SUSE", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+.bg-custom {
+  background: linear-gradient(
+    45deg,
+    #ffcccc,
+    #ccccff,
+    #ffb6c1,
+    #ffffff,
+    #e6e6fa
+  );
+}
+
+.p-container {
+  display: flex;
+  flex-direction: row;
+}
+.left {
+  flex: 1; /* Takes up equal space with the right column */
+  display: flex;
+  flex-direction: column; /* Stacks sub-divs vertically */
+}
+.right {
+  flex: 1; /* Takes up equal space with the left column */
+  border: 1px solid #ddd; /* Optional: Add borders for visual separation */
+  padding: 10px; /* Optional: Add padding for spacing */
+  display: flex;
+}
+.sub {
+  flex: 1; /* Equal height for both sub-divs inside the left column */
+  border: 1px solid #ddd; /* Optional: Add borders for visual separation */
+  /* Optional: Add padding for spacing */
+  display: flex;
+}
+
+.item-box {
+  background-color: #ddd7d7;
+  border-radius: 10px;
+  padding: 10px;
+
+  /* Adjust the border radius as needed */
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 20px;
+  justify-content: center;
+  align-items: center;
+  /* Center items vertically */
+}
+
+.grid-item {
+  background-color: #f1eded;
+  border-radius: 10px;
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center content vertically within grid item */
+  align-items: center; /* Center content horizontally within grid item */
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 768px) {
+  .main-container {
+    flex-direction: column; /* Stack columns vertically on small screens */
+  }
+}
+@media (max-width: 768px) {
+  .p-container {
+    flex-direction: column;
+    flex-wrap: nowrap; /* Stack columns vertically on small screens */
+  }
+  .left {
+    width: 100%;
+  }
+  .right {
+    width: 100%;
+  }
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.small {
+  font-size: 16px;
+}
